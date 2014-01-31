@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RacingGame.Properties" GeneratedClassName="Controls">
+  <Profiles />
+  <Settings>
+    <Setting Name="Throttle" Type="Microsoft.Xna.Framework.Input.Keys" Scope="User">
+      <Value Profile="(Default)">W</Value>
+    </Setting>
+    <Setting Name="TurnLeft" Type="Microsoft.Xna.Framework.Input.Keys" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="TurnRight" Type="Microsoft.Xna.Framework.Input.Keys" Scope="User">
+      <Value Profile="(Default)">Right</Value>
+    </Setting>
+    <Setting Name="StrafeLeft" Type="Microsoft.Xna.Framework.Input.Keys" Scope="User">
+      <Value Profile="(Default)">A</Value>
+    </Setting>
+    <Setting Name="StrafeRight" Type="Microsoft.Xna.Framework.Input.Keys" Scope="User">
+      <Value Profile="(Default)">D</Value>
+    </Setting>
+    <Setting Name="LeftBrake" Type="Microsoft.Xna.Framework.Input.Keys" Scope="User">
+      <Value Profile="(Default)">Q</Value>
+    </Setting>
+    <Setting Name="RightBrake" Type="Microsoft.Xna.Framework.Input.Keys" Scope="User">
+      <Value Profile="(Default)">E</Value>
+    </Setting>
+    <Setting Name="FireWeapon" Type="Microsoft.Xna.Framework.Input.Keys" Scope="User">
+      <Value Profile="(Default)">LeftControl</Value>
+    </Setting>
+    <Setting Name="DiscardWeapon" Type="Microsoft.Xna.Framework.Input.Keys" Scope="User">
+      <Value Profile="(Default)">J</Value>
+    </Setting>
+    <Setting Name="Boost" Type="Microsoft.Xna.Framework.Input.Keys" Scope="User">
+      <Value Profile="(Default)">Space</Value>
+    </Setting>
+    <Setting Name="Reverse" Type="Microsoft.Xna.Framework.Input.Keys" Scope="User">
+      <Value Profile="(Default)">S</Value>
+    </Setting>
+    <Setting Name="Jump" Type="Microsoft.Xna.Framework.Input.Keys" Scope="User">
+      <Value Profile="(Default)">LeftShift</Value>
+    </Setting>
+    <Setting Name="easyThrottle" Type="Microsoft.Xna.Framework.Input.Keys" Scope="User">
+      <Value Profile="(Default)">Up</Value>
+    </Setting>
+    <Setting Name="easyLeft" Type="Microsoft.Xna.Framework.Input.Keys" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="easyRight" Type="Microsoft.Xna.Framework.Input.Keys" Scope="User">
+      <Value Profile="(Default)">Right</Value>
+    </Setting>
+    <Setting Name="easyReverse" Type="Microsoft.Xna.Framework.Input.Keys" Scope="User">
+      <Value Profile="(Default)">Down</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SLERP3D>
+  <LevelFile>Track_03_</LevelFile>
+  <LightType index="0">
+    <!--
+        LightType type;
+        Vector3 color;
+        float range;
+        float aspect;
+        float fovY;
+    -->
+    <Type>Spot</Type>
+    <Color x="1,0" y="1,0" z="1,0"/>
+    <Range>25,0</Range>
+    <Aspect>1,0</Aspect>
+    <FoV>1,6</FoV>
+  </LightType> 
+</SLERP3D>

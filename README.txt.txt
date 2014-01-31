@@ -1,0 +1,13 @@
+==SLERP3D==
+
+SLERP3D is a multiplayer racinggame written in C# and XNA for a bachelor thesis on Chalmers University of Technology.
+
+SLERP is licenced under GNU GPL v2 (see LICENCE.txt for more information)
+
+Created 2010 by:
+Alexander Göransson
+Daniel Lindén
+Rickard von Haugwitz
+Magnus Olausson
+Bartolomeus Jankowski
+David Sundelius

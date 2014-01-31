@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectGuid>{A2598D40-8CC8-435B-83FC-61FC2E016DD9}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RacingGame</RootNamespace>
+    <AssemblyName>RacingGame</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v3.1</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaCrossPlatformGroupID>d0cf2b5d-18c0-4178-a00a-ec8a77948116</XnaCrossPlatformGroupID>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>GameThumbnail.png</Thumbnail>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <FileUpgradeFlags>0</FileUpgradeFlags>
+    <UpgradeBackupLocation>Z:\RacingGameVT10\RacingGame\Backup\RacingGame\</UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=x86">
+      <Private>False</Private>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Collision\KDTreeObject.cs" />
+    <Compile Include="Collision\CollisionManager.cs" />
+    <Compile Include="Collision\CollisionObject.cs" />
+    <Compile Include="Collision\Intersection.cs" />
+    <Compile Include="Collision\KDTree.cs" />
+    <Compile Include="Collision\ResultRay.cs" />
+    <Compile Include="Collision\Triangle.cs" />
+    <Compile Include="Collision\TriangleMesh.cs" />
+    <Compile Include="Collision\TriangleMeshObject.cs" />
+    <Compile Include="Graphics\Effect\MotionBlurEffect.cs" />
+    <Compile Include="Graphics\Scene\DemonNode.cs" />
+    <Compile Include="Graphics\Scene\ShieldNode.cs" />
+    <Compile Include="Graphics\Scene\ShipNode.cs" />
+    <Compile Include="Logic\Checkpoint.cs" />
+    <Compile Include="Powerups\Powerpack.cs" />
+    <Compile Include="Powerups\DemonMode.cs" />
+    <Compile Include="Properties\Controls.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Controls.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Graphics\Camera.cs" />
+    <Compile Include="Graphics\Effect\BlurPostProcess.cs" />
+    <Compile Include="Graphics\Effect\BloomPostProcess.cs" />
+    <Compile Include="Graphics\Effect\EmptyPostProcess.cs" />
+    <Compile Include="Graphics\Effect\GBufferEffect.cs" />
+    <Compile Include="Graphics\Effect\GenericEffect.cs" />
+    <Compile Include="Graphics\Effect\IEffect.cs" />
+    <Compile Include="Graphics\Effect\LightAccumulationEffect.cs" />
+    <Compile Include="Graphics\Effect\ParticleEffect.cs" />
+    <Compile Include="Graphics\Effect\PostProcessEffect.cs" />
+    <Compile Include="Graphics\Effect\ShadingEffect.cs" />
+    <Compile Include="Graphics\Effect\ShadowMapEffect.cs" />
+    <Compile Include="Graphics\Effect\SSAOEffect.cs" />
+    <Compile Include="Graphics\GraphicsHelper.cs" />
+    <Compile Include="Graphics\HUD.cs" />
+    <Compile Include="Graphics\LensFlare.cs" />
+    <Compile Include="Graphics\Lighting\DirectionalLight.cs" />
+    <Compile Include="Graphics\GraphicsManager.cs" />
+    <Compile Include="Graphics\Lighting\Light.cs" />
+    <Compile Include="Graphics\Lighting\PointLight.cs" />
+    <Compile Include="Graphics\Lighting\SpotLight.cs" />
+    <Compile Include="Graphics\Mesh.cs" />
+    <Compile Include="Graphics\PIXTools.cs" />
+    <Compile Include="Graphics\Scene\LightNode.cs" />
+    <Compile Include="Graphics\Scene\ModelNode.cs" />
+    <Compile Include="Graphics\Scene\Node.cs" />
+    <Compile Include="Graphics\Particle\ParticleSystemNode.cs" />
+    <Compile Include="Graphics\Particle\ParticleSystemBase.cs" />
+    <Compile Include="Graphics\Particle\ParticleSystemCPU.cs" />
+    <Compile Include="Graphics\Particle\ParticleSystemGPU.cs" />
+    <Compile Include="Graphics\Lighting\ProjectedLight.cs" />
+    <Compile Include="Graphics\RenderQueue.cs" />
+    <Compile Include="Graphics\Scene\Scene.cs" />
+    <Compile Include="Graphics\Lighting\ShadowMapInfo.cs" />
+    <Compile Include="Logic\PowerupItem.cs" />
+    <Compile Include="Logic\IUpdateable.cs" />
+    <Compile Include="Logic\Player.cs" />
+    <Compile Include="Logic\Ship.cs" />
+    <Compile Include="Map\FloatingLight.cs" />
+    <Compile Include="Map\SceneryNode.cs" />
+    <Compile Include="Map\Level.cs" />
+    <Compile Include="Graphics\Scene\SkyBoxNode.cs" />
+    <Compile Include="Map\Tile.cs" />
+    <Compile Include="Network\P2PManager.cs" />
+    <Compile Include="Powerups\IPowerup.cs" />
+    <Compile Include="Powerups\Missile.cs" />
+    <Compile Include="Powerups\Shield.cs" />
+    <Compile Include="Powerups\Speedup.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RacingGame.cs" />
+    <Compile Include="Sound\SoundManager.cs" />
+    <Compile Include="States\EndGame.cs" />
+    <Compile Include="States\Game.cs" />
+    <Compile Include="States\IGameState.cs" />
+    <Compile Include="States\LoadingScreen.cs" />
+    <Compile Include="States\MainMenu.cs" />
+    <Compile Include="States\Menu.cs" />
+    <Compile Include="States\MenuBackground.cs" />
+    <Compile Include="States\NetworkState.cs" />
+    <Compile Include="States\ResolutionSelectionState.cs" />
+    <Compile Include="States\Settings.cs" />
+    <Compile Include="States\Titlescreen.cs" />
+    <Compile Include="States\VehicleSelectionState.cs" />
+    <Compile Include="Sys\InputManager.cs" />
+    <Compile Include="Sys\Logger.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game.ico" />
+    <Content Include="GameThumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <NestedContentProject Include="Content\Content.contentproj">
+      <Project>de7bbe40-d31e-49ea-8be9-fea3cb20eb4d</Project>
+      <Visible>False</Visible>
+    </NestedContentProject>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.3.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Controls.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Controls.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

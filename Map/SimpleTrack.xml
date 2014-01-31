@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Track>
+  <TrackDim>
+    <XDim> 3 </XDim>
+    <ZDim> 5 </ZDim>
+  </TrackDim>
+  <TileSize> 100 </TileSize>
+  <TileList>
+    <Tile>
+      <TileFile> L_Tile.fbx </TileFile>
+      <TileRot> 1 </TileRot>
+    </Tile>
+    <Tile>
+      <TileFile> I_Tile.fbx </TileFile>
+      <TileRot> 1 </TileRot>
+    </Tile>
+    <Tile>
+      <TileFile> L_Tile.fbx </TileFile>
+      <TileRot> 2 </TileRot>
+    </Tile>
+    
+    <Tile>
+      <TileFile> I_Tile.fbx </TileFile>
+      <TileRot> 0 </TileRot>
+    </Tile>
+    <Tile>
+      <TileFile> Empty_Tile.fbx </TileFile>
+      <TileRot> 0 </TileRot>
+    </Tile>
+    <Tile>
+      <TileFile> I_Tile.fbx </TileFile>
+      <TileRot> 0 </TileRot>
+    </Tile>
+
+    <Tile>
+      <TileFile> I_Tile.fbx </TileFile>
+      <TileRot> 0 </TileRot>
+    </Tile>
+    <Tile>
+      <TileFile> Empty_Tile.fbx </TileFile>
+      <TileRot> 0 </TileRot>
+    </Tile>
+    <Tile>
+      <TileFile> I_Tile.fbx </TileFile>
+      <TileRot> 0 </TileRot>
+    </Tile>
+
+    <Tile>
+      <TileFile> L_Tile.fbx </TileFile>
+      <TileRot> 0 </TileRot>
+    </Tile>
+    <Tile>
+      <TileFile> I_Tile.fbx </TileFile>
+      <TileRot> 1 </TileRot>
+    </Tile>
+    <Tile>
+      <TileFile> L_Tile.fbx </TileFile>
+      <TileRot> 3 </TileRot>
+    </Tile>
+    
+  </TileList>
+</Track>

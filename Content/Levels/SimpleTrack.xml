@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Track>
+  <TileSize>100</TileSize>
+  <XDim>3</XDim>
+  <ZDim>4</ZDim>
+  <TileList>
+    <Tile>
+      <TileFile>L_Tile</TileFile>
+      <TileRot>3</TileRot>
+    </Tile>
+    <Tile>
+      <TileFile>I_Tile</TileFile>
+      <TileRot>1</TileRot>
+    </Tile>
+    <Tile>
+      <TileFile>L_Tile</TileFile>
+      <TileRot>2</TileRot>
+    </Tile>
+    
+    <Tile>
+      <TileFile>I_Tile</TileFile>
+      <TileRot>0</TileRot>
+    </Tile>
+    <Tile>
+      <TileFile>Empty_Tile</TileFile>
+      <TileRot>0</TileRot>
+    </Tile>
+    <Tile>
+      <TileFile>I_Tile</TileFile>
+      <TileRot>0</TileRot>
+    </Tile>
+
+    <Tile>
+      <TileFile>I_Tile</TileFile>
+      <TileRot>0</TileRot>
+    </Tile>
+    <Tile>
+      <TileFile>Empty_Tile</TileFile>
+      <TileRot>0</TileRot>
+    </Tile>
+    <Tile>
+      <TileFile>I_Tile</TileFile>
+      <TileRot>0</TileRot>
+    </Tile>
+
+    <Tile>
+      <TileFile>L_Tile</TileFile>
+      <TileRot>0</TileRot>
+    </Tile>
+    <Tile>
+      <TileFile>I_Tile</TileFile>
+      <TileRot>1</TileRot>
+    </Tile>
+    <Tile>
+      <TileFile>L_Tile</TileFile>
+      <TileRot>1</TileRot>
+    </Tile>
+    
+  </TileList>
+</Track>

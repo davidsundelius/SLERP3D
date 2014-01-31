@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+Track consisting of just one tile, 
+could of course be divuded in more tiles if
+necessary.
+Should probably also be divided into collision object 
+and the 'scenery'.
+-->
+<Track>
+  <TileSize>200</TileSize>
+  <XDim>1</XDim>
+  <ZDim>1</ZDim>
+  <TileList>
+    <Tile>
+      <TileFile>Track_02_Tile_01</TileFile>
+      <TileRot>0</TileRot>
+    </Tile>
+    <Tile>
+      <TileFile>Track_02_Tile_01_scenery</TileFile>
+      <TileRot>0</TileRot>
+    </Tile>
+  </TileList>
+</Track>
